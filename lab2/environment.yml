@@ -1,0 +1,22 @@
+name: TECHIN515
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy=1.26.4
+  - scipy=1.10.0
+  - scikit-learn=1.6.1
+  - matplotlib=3.9.4
+  - h5py
+  - jupyter
+  - ipykernel
+  - pip:
+      - tensorflow==2.7.0  # macOS Apple Silicon users: replace with tensorflow-macos==2.7.0
+      - tensorflow-datasets==4.9.3
+      - tensorflow-estimator==2.7.0
+      - tensorflow-model-optimization==0.8.0
+      - keras==2.7.0
+      - protobuf==3.20.3
+      - flatbuffers==2.0.7

@@ -1,0 +1,49 @@
+# AI / editor config (do not push to remote)
+AGENTS.md
+CLAUDE.md
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Conda
+.conda/
+
+# Environment and secrets
+.env
+.env.local
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE (optional; uncomment if you prefer not to commit)
+# .idea/
+# .vscode/
+# *.swp
+# *.swo
+
+# Arduino / PlatformIO build artifacts (optional)
+# .pio/
+# *.elf
+# *.bin
+
+# Large or generated artifacts (uncomment if you want to ignore)
+# *.h5
+# *.tflite
